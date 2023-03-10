@@ -1,16 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Card from './logica-contexto/Card.vue';
+
+</script>
 
 <template>
-    <div class="teste"></div>
-    <v-alert class="" text="Hello World" />
+    <Card />
 </template>
 
 <style lang="postcss" scoped>
-.teste {
-    @apply bg-meri-low h-5 w-full;
 
-    &:hover {
-        @apply bg-meri-mid;
-    }
-}
 </style>
